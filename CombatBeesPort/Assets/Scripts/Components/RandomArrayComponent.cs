@@ -6,7 +6,6 @@ using Unity.Mathematics;
 [Serializable]
 public struct RandomArrayComponent : IComponentData
 {
-    public NativeArray<float> randomArray;
-    public int maxSize;
-    
+    //public float randomArray;
+    public int maxSize;   
 }
