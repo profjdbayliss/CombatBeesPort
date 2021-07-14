@@ -19,6 +19,22 @@
         {
             "$type": "Unity.Build.Common.ApplicationIdentifier, Unity.Build",
             "PackageName": "CombatBees"
+        },
+        {
+            "$type": "Unity.Tiny.Rendering.Settings.TinyRenderingSettings, Unity.Tiny.Rendering.Authoring",
+            "WindowSize": {
+                "x": 1920,
+                "y": 1080
+            },
+            "RenderResolution": {
+                "x": 1920,
+                "y": 1080
+            },
+            "RenderGraphMode": 2,
+            "MaxResolution": 2048,
+            "AutoResizeFrame": true,
+            "DisableVsync": true,
+            "GPUSkinning": false
         }
     ]
 }
